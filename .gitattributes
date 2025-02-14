@@ -1,0 +1,2 @@
+path/to/large-file.ext filter=lfs diff=lfs merge=lfs -text
+images/3121459-uhd_3840_2160_24fps.mp4 filter=lfs diff=lfs merge=lfs -text
