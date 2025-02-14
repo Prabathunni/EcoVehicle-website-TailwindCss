@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eco Vehicle</title>
+
+    <!-- tailwind css -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Arimo:ital,wght@0,400..700;1,400..700&family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jost:ital,wght@0,100..900;1,100..900&family=Jura:wght@300..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+
+<!-- favicon -->
+ <link rel="icon" type="image/png" href="./images/leaf.png">
+
+<style>
+  *{
+    font-family: "Jura", serif;
+  }
+</style>
+
+</head>
+<body>
+
+<!-- navbar -->
+ 
+<nav class="fixed top-0 right-0 left-0 z-100">
+
+  <div class="row flex justify-between bg-green-600 ">
+    <div class="col px-4 ">
+      <h2 class="text-3xl text-green-50 mt-3 px-8 font-bold">EV <i class="fa-brands fa-envira fa-flip fa-lg" style="color: #ffffff;"></i></h2>   
+    </div>
+    <div class="col m-5 ">
+      <ul class="flex justify-between px-4 ">
+        <li class="text-green-50 px-5  hover:bg-green-50 hover:text-green-900 rounded cursor-pointer"><a href="#">HOME</a></li>
+        <li class="text-green-50 px-5  hover:bg-green-50 hover:text-green-900 rounded cursor-pointer"><a href="#about">ABOUT</a></li>
+        <li  class="text-green-50 px-5  hover:bg-green-50 hover:text-green-900 rounded cursor-pointer"><a href="#testimonials">TESTIMONIALS</a></li>
+        <li  class="text-green-50 px-5  hover:bg-green-50 hover:text-green-900 rounded cursor-pointer"><a href="#enquire">ENQUIRE</a></li>
+      </ul>
+    </div>
+  </div>
+  
+</nav>
+
+
+
+
+<section>
+ <div class="bg-cover p-8" style="background-image: url(./images/wy.jpg); height: 700px;">
+    
+    <div class=" p-5  mt-20 drop-shadow-xl shadow bg-linear-65 from to-green-500  rounded">
+      <h1 class=" text-4xl text-lime-50 ">Electric vehicles</h1>
+      <p class=" p1 text-3xl font-bold " >are the world's path to a cleaner, greener future—where efficiency meets sustainability for a better tomorrow.</p>
+    </div>
+
+ </div>
+</section>
+
+<hr>
+
+<!-- About -->
+
+
+
+<section id="about">
+  
+  <div class="row flex h-96 ">
+
+    <div class="place-content-center p-8 w-3/4 bg-green-400">
+      <h1 class="font-bold text-5xl text-center">Why Go Electric?</h1>
+      <p class="mt-5 text-xl text-center ">Electric vehicles are not just eco-friendly; they are also cost-effective and efficient. Say goodbye to rising fuel prices and frequent maintenance—EVs provide a smoother, quieter, and more powerful driving experience.</p>
+    </div>
+
+    <div class="place-content-center p-8 w-1/4 bg-green-500">
+      <h1 class="font-bold text-5xl text-green-50 ">Power Your Drive, Protect the Planet</h1>
+    </div>
+    
+  </div>
+<hr>
+
+<!-- Banner video -->
+
+<div class="row flex">
+
+  <div class="w-1/2 place-content-center ">
+    <h1 class="font-bold text-4xl p-9 w-155">Drive Electric, Breathe Easy - A Quieter, Greener Tomorrow!</h1>
+
+        <!-- Open Modal Button -->
+    <label for="modal-toggle" class="bg-yellow-500 text-white px-8 py-3 rounded-lg shadow-md hover:bg-green-700 transition cursor-pointer ms-10">
+      Click Here 
+    </label>
+
+    <input type="checkbox" id="modal-toggle" class="peer hidden">
+
+    <div class="fixed inset-0 bg-black bg-opacity-50 hidden peer-checked:flex items-center justify-center">
+         <!-- Modal Content -->
+      <div class="bg-white p-6 rounded-lg shadow-lg w-96 text-center">
+          <h2 class="text-2xl font-bold text-gray-800">Important Message!</h2>
+          <p class="text-gray-600 mt-2">Switching to EVs reduces pollution and saves you money.</p>
+          <label for="modal-toggle" class="mt-4 inline-block px-6 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600 transition cursor-pointer">
+            Close
+          </label>
+      </div>
+
+  </div>
+
+
+
+  </div>
+
+  <div class="w-1/2 h-100">
+  <video autoplay loop muted class="vid1 ">
+  <source src="./images/3121459-uhd_3840_2160_24fps.mp4">
+  </video>
+  </div>
+
+</div>
+
+<hr>
+
+  <div class="row flex h-96 ">
+
+    <div class="place-content-center p-8 w-1/4 bg-green-500">
+      <h1 class="font-bold text-5xl text-green-50 ">Charge Anytime, Drive Anywhere</h1>
+    </div>
+
+    <div class="place-content-center p-8 w-3/4 bg-green-400">
+      <h1 class="font-bold text-5xl text-center">Charging Made Easy</h1>
+      <p class="mt-5 text-xl text-center">Worried about charging? EVs come with home-charging options, and public charging networks are expanding rapidly. Fast-charging stations can power up your car in minutes, making long drives hassle-free.
+
+      </p>
+
+    </div>
+
+  </div>
+  
+</section>
+
+
+
+<section class="bg-gray-100 py-16 px-10" id="testimonials">
+  <h2 class="text-4xl font-bold text-center text-green-700">What EV Owners Say</h2>
+  <p class="mt-4 text-lg text-center text-gray-900">Real experiences from people who made the switch to electric vehicles.</p>
+
+  <div class="mt-10 grid md:grid-cols-3 gap-6">
+
+      <!-- Testimonial 1 -->
+
+      <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
+          <p class="text-gray-800 italic">"Switching to an EV was the best decision! I save so much on fuel, and the ride is incredibly smooth and silent."</p>
+
+          <div class="mt-4 flex items-center">
+              <img class="w-12 h-12 rounded-full" src="https://randomuser.me/api/portraits/men/32.jpg" alt="User">
+              <div class="ml-3">
+                  <h4 class="font-semibold">Rahul M.</h4>
+                  <p class="text-sm text-gray-500">EV Owner</p>
+              </div>
+          </div>
+
+      </div>
+
+      <!-- Testimonial 2 -->
+      <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
+        
+          <p class="text-gray-800 italic">"I was worried about charging, but EV infrastructure is improving fast. Charging at home is super convenient!"</p>
+
+          <div class="mt-4 flex items-center">
+              <img class="w-12 h-12 rounded-full" src="https://randomuser.me/api/portraits/women/45.jpg" alt="User">
+
+              <div class="ml-3">
+                  <h4 class="font-semibold">Ananya S.</h4>
+                  <p class="text-sm text-gray-500">EV Enthusiast</p>
+              </div>
+
+          </div>
+
+      </div>
+
+      <!-- Testimonial 3 -->
+      <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
+          <p class="text-gray-800 italic">"EVs are not just eco-friendly, but also tech-advanced. The instant torque and silent drive are amazing!"</p>
+
+          <div class="mt-4 flex items-center">
+
+              <img class="w-12 h-12 rounded-full" src="https://randomuser.me/api/portraits/men/54.jpg" alt="User">
+              <div class="ml-3">
+                  <h4 class="font-semibold">Amit P.</h4>
+                  <p class="text-sm text-gray-500">Tech Enthusiast</p>
+              </div>
+
+          </div>
+
+      </div>
+
+
+  </div>
+
+
+</section>
+
+
+<!-- Enquire Form -->
+
+
+<section id="enquire">
+
+
+ <div class="bg-cover h-200 place-content-center" style="background-image: url(./images/formphoto.jpg);">
+
+
+
+  <div class="max-w-2xl mx-auto p-6 mt-10 rounded-lg shadow-md bg-white opacity-90">
+
+   <h2 class="text-4xl font-bold text-center text-green-700 ">Have Questions? Enquire Now!</h2>
+   <p class="mt-4 text-lg text-center text-gray-700">Fill in your details, and we'll get back to you soon.</p>
+  </div>
+
+
+   <div class="max-w-2xl mx-auto p-6 mt-10 rounded-lg shadow-md bg-green-100 opacity-90 ">
+      <form class="">
+
+          <div class="mb-4">
+              <label class="block text-gray-700 font-semibold">Name</label>
+              <input type="text" class="w-full mt-2 p-3 border rounded-lg" placeholder="Enter your name" required>
+          </div>
+
+          <div class="mb-4">
+              <label class="block text-gray-700 font-semibold">Email</label>
+              <input type="email" class="w-full mt-2 p-3 border rounded-lg" placeholder="Enter your email" required>
+          </div>
+
+          <div class="mb-4">
+              <label class="block text-gray-700 font-semibold">Message</label>
+              <textarea class="w-full mt-2 p-3 border rounded-lg" rows="4" placeholder="Write your message here" required></textarea>
+          </div>
+
+          <button type="submit" class="w-full bg-green-600 text-white font-semibold py-3 rounded-lg hover:bg-green-700 transition cursor-pointer">
+              Send Enquiry
+          </button>
+
+          
+      </form>
+   </div>
+
+
+
+ </div>
+</section>
+
+
+<!-- Footer -->
+<footer class="bg-gray-900 text-white py-8" >
+
+  <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-8" >
+
+     <div>
+       <h3 class="text-xl font-semibold">About Us</h3>
+       <p class="text-gray-400 mt-2 text-sm">Promoting a greener future by encouraging the switch to electric vehicles. Drive smart, drive electric.</p>
+      </div>
+
+      <div>
+       <h3 class="text-xl font-semibold">Quick Links</h3>
+           <ul class="mt-2 text-gray-400 space-y-2 text-sm">
+              <li><a href="#" class="hover:text-green-400 transition">Home</a></li>
+              <li><a href="#about" class="hover:text-green-400 transition">Why EV?</a></li>
+              <li><a href="#testimonials" class="hover:text-green-400 transition">Testimonials</a></li>
+               <li><a href="#enquire" class="hover:text-green-400 transition">Enquire</a></li>
+         </ul>
+
+      </div>
+
+      <div>
+       <h3 class="text-xl font-semibold">Follow Us</h3>
+          <div class="flex space-x-4 mt-2">
+              <a href="#" class="text-gray-400 hover:text-green-400 transition text-2xl"><i class="fab fa-facebook"></i></a>
+              <a href="#" class="text-gray-400 hover:text-green-400 transition text-2xl"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="text-gray-400 hover:text-green-400 transition text-2xl"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="text-gray-400 hover:text-green-400 transition text-2xl"><i class="fab fa-linkedin"></i></a>
+          </div>
+      </div>
+  </div>
+
+  <!-- Bottom Footer -->
+  <div class="border-t border-gray-700 mt-6 pt-4 text-center text-gray-400 text-sm">
+      © 2025 EV Awareness. All rights reserved.
+  </div>
+</footer>
+
+
+
+
+
+  
+</body>
+</html>
